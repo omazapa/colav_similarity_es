@@ -12,11 +12,6 @@ def parse_string(string:str):
     data = unidecode(data)
     return data    
 
-#def parse_string(text):
-#    text = unidecode(text.lower())
-#    text = re.sub( r'[\$_\^]','', re.sub(r'\\\w+','',text ))
-#    return str(text)
-
 def __colav_similarity(title1,title2,journal1,journal2,year1,year2, ratio_thold=90, partial_thold=95,low_thold=80,verbose=0):
 
     label = False
